@@ -1,8 +1,8 @@
 <?php
 $DB_HOST = 'localhost';
-$DB_USER = 'miguelclaudino';
-$DB_PASS = 'Golfe1377';
-$DB_NAME = 'miguelclaudino';
+$DB_USER = 'root';
+$DB_PASS = 'root';
+$DB_NAME = 'FootballAnalytics';
 //$DB_PORT = '8889';
 
 global $link;
