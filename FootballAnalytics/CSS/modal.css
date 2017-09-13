@@ -1,0 +1,161 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-image: url(../images/poison2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding: 0;
+    border-radius: 5px;
+    width: 288px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close2 {
+    color: #f6f6f6;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 15px 21px;
+    background-color: transparent;
+    color: #f6f6f6;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.modal-body {
+    margin-top: 9px;
+    padding: 9px 21px;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* ---------- REGIST FORM ---------- */
+
+form .registerForm {
+    display: block;
+}
+
+.inputUn {
+    border: none;
+    text-align: center;
+    padding: 9px 0px;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.6);
+    color: #191919;
+}
+
+.inputPw {
+    border: none;
+    text-align: center;
+    padding: 9px 0px;
+    font-size: 15px;
+    margin-top: 12px;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.6);
+    color: #191919;
+}
+
+form input:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #191919;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #191919;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #191919;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #191919;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #191919;
+}
+
+
+/* ---------- REGISTER FORM SUBMIT BUTTON ---------- */
+
+.submit2 {
+    margin-top: 12px;
+    margin-bottom: 18px;
+    font-size: 15px;
+    padding: 9px 12px;
+    border: 3px solid #ff6700;
+    border-radius: 20px;
+    color: #ff6700;
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+    width: 170px;
+}
+
+.submit2 {
+    background: linear-gradient(to right, #ff6700 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.6s ease;
+}
+
+.submit2:hover {
+    background-position: left bottom;
+    border-right: 6px solid #ff6700;
+    color: #f6f6f6;
+    transition: all 0.5s ease;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.submit2:focus {
+    background-color: #ff6700;
+    color: #f6f6f6;
+    border-right: 4px solid #ff6700;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}

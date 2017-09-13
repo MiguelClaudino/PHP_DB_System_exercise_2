@@ -1,0 +1,91 @@
+/* ----------------- USER CHIP ----------------- */
+
+.chip {
+    display: inline-block;
+    padding: 0 123px;
+    font-size: 18px;
+    color: #233D8C;
+    line-height: 49px;
+    border-radius: 25px;
+    background-color: #DDDDDD;
+    margin-right: 159px;
+    margin-top: 12px;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.chip img {
+    float: left;
+    margin: 0 0 0 -123px;
+    border-radius: 50%;
+    width: 51px;
+    height: 51px;
+}
+
+.table_wraper {
+    width: 100vw;
+    text-align: center;
+    margin-top: 9vh;
+}
+
+table {
+    width: 69vw;
+    margin: auto;
+    margin-bottom: 21px;
+    border-collapse: collapse;
+}
+
+table th {
+    padding: 9px 3px;
+    background-color: #233D8C;
+    color: #f6f6f6;
+    border: 3px solid #233D8C;
+}
+
+table td {
+    border: 3px solid #233D8C;
+    padding: 9px 3px;
+}
+
+/*
+table td:nth-child(7) {
+    border: none;
+    padding: 9px 3px;
+}
+
+table td:nth-child(1) {
+    border: none;
+    padding: 9px 3px;
+}
+*/
+
+table td a {
+    border: 2px solid #233D8C;
+    background-color: #233D8C;
+    color: #f6f6f6;
+    padding: 3px 6px;
+    margin-top: 18px;
+    text-decoration: none;
+}
+
+table td a:hover {
+    background-color: #f6f6f6;
+    color: #233D8C;
+}
+
+.title {
+    margin-left: 45vw;
+    margin-top: 21vh;
+    color: #233D8C;
+    font-size: 2vw;
+}
+
+
+
+
+
+
+
+
+

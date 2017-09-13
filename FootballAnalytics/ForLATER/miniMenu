@@ -1,0 +1,77 @@
+<!-- ------------------------- MINI MENU ------------------------- -->
+<!--
+
+<div class="mini_menu">
+    <ul>
+        <li>
+            <a href="">
+                <img src="../images/fcKobenhavn.png" class="big">
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="../images/pie-chart.svg">
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="../images/small-calendar.svg">
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="../images/video-camera.svg">
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="../images/chat.svg">
+            </a>
+        </li>
+    </ul>
+</div>
+-->
+
+
+/* ----------------- MINI MENU ----------------- */
+
+/*
+.mini_menu ul {
+    list-style: none;
+    margin-top: 49px;
+    position: fixed;
+    left: 0px;
+}
+
+.mini_menu ul li {
+    height: 93px;
+    width: 93px;
+    text-align: center;
+}
+
+.mini_menu ul li img {
+    height: 39px;
+    width: 39px;
+}
+
+.mini_menu ul li img:nth-child(1) {
+    margin-top: 30px;
+}
+
+.mini_menu ul li:nth-child(3) {
+    margin-top: -30px;
+}
+
+.mini_menu ul li:nth-child(4) {
+    margin-top: -30px;
+}
+
+.mini_menu ul li:nth-child(5) {
+    margin-top: -30px;
+}
+
+.mini_menu ul li .big {
+    height: 66px;
+    width: 66px;
+}
+*/
